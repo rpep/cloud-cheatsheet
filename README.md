@@ -10,7 +10,7 @@ aws s3 ls s3://bucketname/path/of/folder/in/bucket/
 ```
 
 ### EC2
-* Connect to an AWS instance using SSM
+* Connect to an AWS instance using SSM (note - need to install plugin)
 ```
 aws ssm start-session --target <instance ID> --region <region>
 ```
